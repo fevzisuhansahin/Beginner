@@ -28,3 +28,4 @@ for i in kelimeler:
 for a , b in ayri_kelimeler.items():
     print(f"{a} kelimesinden {b} tane var.")
 
+
