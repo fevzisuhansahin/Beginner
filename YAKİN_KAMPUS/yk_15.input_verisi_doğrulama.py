@@ -28,4 +28,4 @@ def gmail_control_döngüsü():
     else:
         print(f"'{gmail}' geçerli bir gmail adresidir.")
         
-gmail_control_döngüsü()
+#gmail_control_döngüsü()

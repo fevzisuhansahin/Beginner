@@ -22,8 +22,8 @@ for i in re.finditer(patern, cumle): # finditer ise atributeleri de içerir
 
 # Ifade ########## Aciklama ######## Örnek ########### Patern ####
 # --------------------------------------------------------------##
-#  \d   #########   rakam  #######  base42  #########  base\d\d ##
-#  \w   ########   karakter  #####   R2-D2  ######### \w\w\w\w\w #
+#  \d   #########   rm  #######  base42  #########  base\d\d ##
+#  \w   ########   kakaarakter  #####   R2-D2  ######### \w\w\w\w\w #
 #  \s   ########    bosluk  ###### Ping Pong ######## Ping\sPong #
 #  \D   #######   rakam degil  #####  base  #########  \D\D\D\D ##
 #  \W   #####   karakter degil  ###   R2D2  ######### \W\W\W\W ###
