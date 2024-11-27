@@ -48,6 +48,6 @@ if oge['b_harf'] == 0:
 if oge['rakam'] == 0:
     print("Şifrenize rakam eklemelisiniz.")
 if oge['ozel_karakter'] == 0:
-    print("Şifrenize özel karakter eklemelisiniz.")
+  print("Şifrenize özel karakter eklemelisiniz.")
 print(f"Şifreniz '%{yuzdelik}' güvenlidir.")
 print("|" , float(yuzdelik/100) * "#" , float(100 - (yuzdelik/100)) * " " , "|")
