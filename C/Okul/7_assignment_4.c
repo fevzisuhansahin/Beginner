@@ -3,7 +3,6 @@
 #define max 100
 
 int main(){
-
     int n, m, i, j;
 
     printf("Kac satir olacak: ");
