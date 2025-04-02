@@ -6,7 +6,7 @@ void carpma(double a,double b);
 void bolme(double a,double b);
 void us_alma(double a, int b);
 void veri_alma(double *a, double*b, int us_mu);
-int hesap_makinesi();
+void hesap_makinesi();
 
 void sort_arr(int arr[], int n);
 void find_same(int arr1[], int arr2[], int t);
@@ -36,7 +36,7 @@ int main(){
     return 0;
 }
 
-int hesap_makinesi(){
+void hesap_makinesi(){
 
     int islem;
     double a;
