@@ -13,4 +13,5 @@ class Item:
         if self.amountInBasket < self.count:
             self.amountInBasket += 1
         else:
-            print(f"{self.name} is out of stock")
+            print(f"\n{self.name} is out of stock !")
+            input("\nPress ENTER to continue")

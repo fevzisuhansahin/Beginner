@@ -30,6 +30,7 @@ def menu():
                 cart.addItem(urun4)
             else:
                 print("Invalid Product!")
+                input("\nPress ENTER to continue")
         elif secim == "2":
             cart.basketInfo()
         elif secim == "3":
@@ -39,6 +40,7 @@ def menu():
             break
         else:
             print("Invalid Choice!")
+            input("\nPress ENTER to continue")
 
 if __name__ == "__main__":
     menu()
